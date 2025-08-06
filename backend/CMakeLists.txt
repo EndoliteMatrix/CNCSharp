@@ -8,6 +8,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Define the backend library
 add_library(cncsharp_backend
     src/generator.cpp
+    src/marlin_commands.cpp
+    src/communication.cpp
 )
 
 # Ensure the compiler uses at least C++17
